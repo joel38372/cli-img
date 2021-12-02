@@ -1,0 +1,24 @@
+{
+    "name": "jm/basekit",
+    "description": "A demonstration of coding abilities for BaseKit",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joel",
+            "email": "joel.maizonnier@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "monolog/monolog": "^2.3",
+        "intervention/image": "^2.7",
+        "league/flysystem": "^2.3"
+    }
+}
